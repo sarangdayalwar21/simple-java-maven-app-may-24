@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         jdk 'Java_21' // Configure JDK 21 in Jenkins
-        maven 'Maven_3' // Configure Maven in Jenkins
+        maven 'Maven_3.9.11' // Configure Maven in Jenkins
     }
     stages {
         stage('Checkout') {
